@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-11T18:11:08 IST" name="Default suite" finished-at="2025-11-11T18:11:12 IST" duration-ms="4376">
+    <groups>
+    </groups>
+    <test started-at="2025-11-11T18:11:08 IST" name="Default test" finished-at="2025-11-11T18:11:12 IST" duration-ms="4376">
+      <class name="Day1.httpmethods">
+        <test-method signature="createuser()[pri:2, instance:Day1.httpmethods@4135c3b]" started-at="2025-11-11T18:11:08 IST" name="createuser" finished-at="2025-11-11T18:11:11 IST" duration-ms="3397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method signature="updateuser()[pri:3, instance:Day1.httpmethods@4135c3b]" started-at="2025-11-11T18:11:11 IST" name="updateuser" finished-at="2025-11-11T18:11:12 IST" depends-on-methods="Day1.httpmethods.createuser" duration-ms="642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateuser -->
+        <test-method signature="deleteteuser()[pri:4, instance:Day1.httpmethods@4135c3b]" started-at="2025-11-11T18:11:12 IST" name="deleteteuser" finished-at="2025-11-11T18:11:12 IST" depends-on-methods="Day1.httpmethods.createuser" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteteuser -->
+      </class> <!-- Day1.httpmethods -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
