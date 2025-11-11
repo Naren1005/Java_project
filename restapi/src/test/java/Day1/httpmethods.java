@@ -11,7 +11,7 @@ import java.util.HashMap;
 
 public class httpmethods {
 	int userid;
-	@Test(priority = 1,enabled = false)
+	@Test(priority = 1,enabled = true)
 	public void getusers()
 	{
 		given()
@@ -83,6 +83,8 @@ public class httpmethods {
 			.delete("https://reqres.in/api/users/"+userid)
 		.then()
 			.statusCode(204)
+			.time(lessThan(2000L))
+			.body(emptyOrNullString())
 			.log().all();
 	}
 }
