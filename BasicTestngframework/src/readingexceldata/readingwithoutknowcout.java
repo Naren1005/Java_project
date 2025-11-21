@@ -3,6 +3,7 @@ package readingexceldata;
 import java.io.FileInputStream;
 import java.io.IOException;
 
+import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.WebElement;
@@ -18,6 +19,7 @@ public class readingwithoutknowcout {
 	  
 	  XSSFWorkbook W= new XSSFWorkbook(fis);
 	  XSSFSheet sht= W.getSheet("Lalitha");
+	 
 	  
 	  int b=sht.getLastRowNum();
 	  System.out.println("the no of records in the sheet are:  "+b);
@@ -25,6 +27,7 @@ public class readingwithoutknowcout {
 	  for (int a=0;a<=b;a++)  // as we know the no of rows so we are able to put the last value as 58
 	  {
 		  String cellval=sht.getRow(a).getCell(0).getStringCellValue();
+		  
 	  System.out.println(a+"-"+cellval);
 	 
 	  }

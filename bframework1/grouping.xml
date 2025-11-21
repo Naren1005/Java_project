@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="regression testing suit">
+	<test thread-count="5" name="sit">
+		<groups>
+			<run>
+				<include name="sit"></include>
+				<exclude name="reg"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="grouping.sit" />
+			<class name="grouping.uat" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!--
+Suite -->

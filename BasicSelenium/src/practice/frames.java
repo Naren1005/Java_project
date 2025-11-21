@@ -21,6 +21,7 @@ public class frames {
 		driver.get("file:///D:/Vcube%20java%20selenium%20recordings/Class%20videos/Selenium/htlmfiles/Frames.html");
 		
 		driver.switchTo().frame(driver.findElement(By.xpath("//frame[@src='Hyper links.html']")));
+		
 		driver.findElement(By.linkText("The Rock Says")).click();
 		Thread.sleep(3000);
 		driver.navigate().back();

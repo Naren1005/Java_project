@@ -1,77 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-07T23:28:34 IST" name="Default suite" finished-at="2025-09-07T23:28:35 IST" duration-ms="381">
+  <suite started-at="2025-10-10T18:59:44 IST" name="Default suite" finished-at="2025-10-10T18:59:45 IST" duration-ms="1252">
     <groups>
     </groups>
-    <test started-at="2025-09-07T23:28:34 IST" name="Default test" finished-at="2025-09-07T23:28:35 IST" duration-ms="381">
-      <class name="failstestcases.animalClass3">
-        <test-method signature="be1()[pri:0, instance:failstestcases.animalClass3@1fa121e2]" started-at="2025-09-07T23:28:34 IST" name="be1" finished-at="2025-09-07T23:28:34 IST" duration-ms="37" status="PASS">
+    <test started-at="2025-10-10T18:59:44 IST" name="Default test" finished-at="2025-10-10T18:59:45 IST" duration-ms="1252">
+      <class name="readingexceldata.differentdatatypes">
+        <test-method signature="readfromexcel()[pri:0, instance:readingexceldata.differentdatatypes@3b0090a4]" started-at="2025-10-10T18:59:44 IST" name="readfromexcel" finished-at="2025-10-10T18:59:45 IST" duration-ms="1179" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- be1 -->
-        <test-method signature="bk1()[pri:0, instance:failstestcases.animalClass3@1fa121e2]" started-at="2025-09-07T23:28:34 IST" name="bk1" finished-at="2025-09-07T23:28:35 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bk1 -->
-        <test-method signature="ca1()[pri:0, instance:failstestcases.animalClass3@1fa121e2]" started-at="2025-09-07T23:28:35 IST" name="ca1" finished-at="2025-09-07T23:28:35 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ca1 -->
-        <test-method signature="ch1()[pri:0, instance:failstestcases.animalClass3@1fa121e2]" started-at="2025-09-07T23:28:35 IST" name="ch1" finished-at="2025-09-07T23:28:35 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ch1 -->
-        <test-method signature="cr1()[pri:0, instance:failstestcases.animalClass3@1fa121e2]" started-at="2025-09-07T23:28:35 IST" name="cr1" finished-at="2025-09-07T23:28:35 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cr1 -->
-        <test-method signature="dg1()[pri:0, instance:failstestcases.animalClass3@1fa121e2]" started-at="2025-09-07T23:28:35 IST" name="dg1" finished-at="2025-09-07T23:28:35 IST" duration-ms="21" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dg1 -->
-        <test-method signature="el1()[pri:0, instance:failstestcases.animalClass3@1fa121e2]" started-at="2025-09-07T23:28:35 IST" name="el1" finished-at="2025-09-07T23:28:35 IST" duration-ms="16" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- el1 -->
-        <test-method signature="fr1()[pri:0, instance:failstestcases.animalClass3@1fa121e2]" started-at="2025-09-07T23:28:35 IST" name="fr1" finished-at="2025-09-07T23:28:35 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fr1 -->
-        <test-method signature="hm1()[pri:0, instance:failstestcases.animalClass3@1fa121e2]" started-at="2025-09-07T23:28:35 IST" name="hm1" finished-at="2025-09-07T23:28:35 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hm1 -->
-        <test-method signature="hrs()[pri:0, instance:failstestcases.animalClass3@1fa121e2]" started-at="2025-09-07T23:28:35 IST" name="hrs" finished-at="2025-09-07T23:28:35 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hrs -->
-        <test-method signature="jr1()[pri:0, instance:failstestcases.animalClass3@1fa121e2]" started-at="2025-09-07T23:28:35 IST" name="jr1" finished-at="2025-09-07T23:28:35 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- jr1 -->
-        <test-method signature="ln1()[pri:0, instance:failstestcases.animalClass3@1fa121e2]" started-at="2025-09-07T23:28:35 IST" name="ln1" finished-at="2025-09-07T23:28:35 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ln1 -->
-        <test-method signature="ltin1()[pri:0, instance:failstestcases.animalClass3@1fa121e2]" started-at="2025-09-07T23:28:35 IST" name="ltin1" finished-at="2025-09-07T23:28:35 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ltin1 -->
-        <test-method signature="mo1()[pri:0, instance:failstestcases.animalClass3@1fa121e2]" started-at="2025-09-07T23:28:35 IST" name="mo1" finished-at="2025-09-07T23:28:35 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mo1 -->
-        <test-method signature="sh1()[pri:0, instance:failstestcases.animalClass3@1fa121e2]" started-at="2025-09-07T23:28:35 IST" name="sh1" finished-at="2025-09-07T23:28:35 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sh1 -->
-        <test-method signature="to1()[pri:0, instance:failstestcases.animalClass3@1fa121e2]" started-at="2025-09-07T23:28:35 IST" name="to1" finished-at="2025-09-07T23:28:35 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- to1 -->
-      </class> <!-- failstestcases.animalClass3 -->
+        </test-method> <!-- readfromexcel -->
+      </class> <!-- readingexceldata.differentdatatypes -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

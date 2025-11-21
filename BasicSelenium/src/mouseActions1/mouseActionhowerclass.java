@@ -3,6 +3,7 @@ package mouseActions1;
 
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -29,6 +30,7 @@ public class mouseActionhowerclass {
 		Actions l= new Actions(driver);
 		//l.doubleClick(w).perform();
 		l.moveToElement(w).perform(); // mouse over
+	
 		//l.contextClick(w).perform(); // right click
 
 

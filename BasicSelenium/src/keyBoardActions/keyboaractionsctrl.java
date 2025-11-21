@@ -21,17 +21,17 @@ public class keyboaractionsctrl {
 //		driver.findElement(By.id("APjFqb")).sendKeys("guntur pin code");
 		Thread.sleep(2000);
 //		
-//		Actions l= new Actions(driver);
+		Actions l= new Actions(driver);
 //		
 //		l.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).perform();
 //		l.keyDown(Keys.DELETE).keyUp(Keys.DELETE).perform();
-//		l.keyDown(Keys.SHIFT).sendKeys(Keys.TAB).keyUp(Keys.SHIFT).perform();
+		l.keyDown(Keys.SHIFT).sendKeys(Keys.TAB).keyUp(Keys.SHIFT).perform();
 		
 		//driver.findElement(By.partialLinkText("Ad")).click();
 		
 		driver.switchTo().activeElement();
 //		
-		driver.findElement(By.xpath("//*[@id=\"stUuGf\"]/div/div[2]/div/div/div/div[2]/div/promo-button-text[1]/div/div")).click();
+		driver.findElement(By.xpath("//div[@class='niO4u VDgVie SlP8xc']")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.id("APjFqb")).sendKeys("guntur pin code");
 //

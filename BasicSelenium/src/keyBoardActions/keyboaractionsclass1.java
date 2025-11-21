@@ -21,7 +21,7 @@ public class keyboaractionsclass1 {
 		driver.findElement(By.name("txtUserName")).sendKeys("selenium");
 		Thread.sleep(2000);
 		Actions l= new Actions(driver);
-		l.keyDown(Keys.TAB).keyUp(Keys.TAB).perform();
+		//l.keyDown(Keys.TAB).keyUp(Keys.TAB).perform();
 		Thread.sleep(2000);
 		driver.findElement(By.name("txtPassword")).sendKeys("selenium");
 		Thread.sleep(2000);

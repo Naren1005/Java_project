@@ -10,7 +10,7 @@ public class studentmarks {
 		Scanner obj1=new Scanner(System.in);
 		
 			System.out.println("please enter the marks for English subject :\n");
-		
+	
 		int english=obj1.nextInt();
 			System.out.println("please enter the marks for Telugu subject:\n");
 		
