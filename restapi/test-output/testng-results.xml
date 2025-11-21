@@ -1,25 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-11T18:11:08 IST" name="Default suite" finished-at="2025-11-11T18:11:12 IST" duration-ms="4376">
+  <suite started-at="2025-11-20T17:53:30 IST" name="chainingid" finished-at="2025-11-20T17:53:40 IST" duration-ms="9671">
     <groups>
     </groups>
-    <test started-at="2025-11-11T18:11:08 IST" name="Default test" finished-at="2025-11-11T18:11:12 IST" duration-ms="4376">
-      <class name="Day1.httpmethods">
-        <test-method signature="createuser()[pri:2, instance:Day1.httpmethods@4135c3b]" started-at="2025-11-11T18:11:08 IST" name="createuser" finished-at="2025-11-11T18:11:11 IST" duration-ms="3397" status="PASS">
+    <test started-at="2025-11-20T17:53:30 IST" name="passingidtodiffertclasses" finished-at="2025-11-20T17:53:40 IST" duration-ms="9671">
+      <class name="Day3.createuserchaining">
+        <test-method signature="creatUser(org.testng.ITestContext)[pri:0, instance:Day3.createuserchaining@10aa41f2]" started-at="2025-11-20T17:53:31 IST" name="creatUser" finished-at="2025-11-20T17:53:36 IST" duration-ms="5395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4803b726]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createuser -->
-        <test-method signature="updateuser()[pri:3, instance:Day1.httpmethods@4135c3b]" started-at="2025-11-11T18:11:11 IST" name="updateuser" finished-at="2025-11-11T18:11:12 IST" depends-on-methods="Day1.httpmethods.createuser" duration-ms="642" status="PASS">
+        </test-method> <!-- creatUser -->
+      </class> <!-- Day3.createuserchaining -->
+      <class name="Day3.deleteuserchaining2">
+        <test-method signature="deleteuser(org.testng.ITestContext)[pri:0, instance:Day3.deleteuserchaining2@3af9c5b7]" started-at="2025-11-20T17:53:37 IST" name="deleteuser" finished-at="2025-11-20T17:53:40 IST" depends-on-methods="Day3.updateuserchaining2.updateuser" duration-ms="2685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4803b726]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+      </class> <!-- Day3.deleteuserchaining2 -->
+      <class name="Day3.updateuserchaining2">
+        <test-method signature="updateuser(org.testng.ITestContext)[pri:0, instance:Day3.updateuserchaining2@c86b9e3]" started-at="2025-11-20T17:53:37 IST" name="updateuser" finished-at="2025-11-20T17:53:37 IST" depends-on-methods="Day3.getuserchaining2.getuser" duration-ms="579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4803b726]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateuser -->
-        <test-method signature="deleteteuser()[pri:4, instance:Day1.httpmethods@4135c3b]" started-at="2025-11-11T18:11:12 IST" name="deleteteuser" finished-at="2025-11-11T18:11:12 IST" depends-on-methods="Day1.httpmethods.createuser" duration-ms="268" status="PASS">
+      </class> <!-- Day3.updateuserchaining2 -->
+      <class name="Day3.getuserchaining2">
+        <test-method signature="getuser(org.testng.ITestContext)[pri:0, instance:Day3.getuserchaining2@445b295b]" started-at="2025-11-20T17:53:36 IST" name="getuser" finished-at="2025-11-20T17:53:37 IST" depends-on-methods="Day3.createuserchaining.creatUser" duration-ms="914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4803b726]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteteuser -->
-      </class> <!-- Day1.httpmethods -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- getuser -->
+      </class> <!-- Day3.getuserchaining2 -->
+    </test> <!-- passingidtodiffertclasses -->
+  </suite> <!-- chainingid -->
 </testng-results>

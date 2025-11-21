@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Day1.httpmethods">
+      <class name="Day2.chainingwithfaker">
         <methods>
           <include name="updateuser"/>
+          <include name="creatUser"/>
+          <include name="getuser"/>
         </methods>
-      </class> <!-- Day1.httpmethods -->
+      </class> <!-- Day2.chainingwithfaker -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

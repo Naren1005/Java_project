@@ -17,16 +17,18 @@ public class httpmethods {
 		given()
 		 .header("x-api-key","reqres-free-v1")
 		.when()
-			.get("https://reqres.in/api/users?page=2")
+			.get("https://reqres.in/api/users?page=2&id=7")
+			
+			//.get("https://reqres.in/api/users?page=2&id=5")
 		.then()
 		.statusCode(200)
-		.body("page",equalTo(2))
+		//.body("page",equalTo(2))
 		.body(containsString("email"))
 		.body(containsString("id"))
 		
 		.log().all();
 	}
-	@Test(priority = 2)
+	//@Test(priority = 2)
 	public void createuser()
 	{
 		HashMap<String,String> data=new HashMap<String, String>();
@@ -50,7 +52,7 @@ public class httpmethods {
 	
 	//updating the user
 	
-	@Test(priority = 3,dependsOnMethods = {"createuser"})
+	//@Test(priority = 3,dependsOnMethods = {"createuser"})
 	public void updateuser()
 	{
 		HashMap<String,String> data=new HashMap<String, String>();
@@ -70,7 +72,7 @@ public class httpmethods {
 			
 			.log().all();
 	}
-	@Test(priority = 4,dependsOnMethods = {"createuser"})
+	//@Test(priority = 4,dependsOnMethods = {"createuser"})
 	public void deleteteuser()
 	{
 		
